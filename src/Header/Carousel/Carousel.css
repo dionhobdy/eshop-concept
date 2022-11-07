@@ -1,0 +1,36 @@
+.Carousel {
+    margin-top: -620px;
+    width: 1300px;
+    
+    position: relative;
+    z-index: 3;
+}
+
+.holder {
+    margin-top: -700px;
+    position: static;
+    z-index: 1;
+}
+
+.svg {
+    position: absolute;
+    z-index: 3;
+    margin-top: 180px;
+    margin-left: -750px;
+}
+
+.caption {
+    position: inherit;
+    margin-top: -20px;
+    z-index: 4;
+}
+
+.screen {
+    position: static;
+    width: 1300px;
+    height: 700px;
+    margin-top: 75px;
+    background-color: #000000;
+    opacity: .10;
+    z-index: 2;
+}
